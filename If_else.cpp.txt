@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "1.Games"<< endl;
+    cout << "2.Musics"<< endl;
+    cout << "3.videos"<< endl;
+    
+    int value;
+    cin>> value;
+    
+    cout <<"Enter your selection"<<flush;
+    
+    if(value<1)
+    {
+        cout<<"Non previliged entry..."<<endl;
+    }
+    else {
+        cout<<"Priviliged access..."<<endl;
+    }
+    if(value==1)
+    {
+        cout<<"OPENING BGMI"<<endl;
+    
+    }
+    else {
+        cout<<"CLOSING"<<endl;
+    }
+    return 0;
+}
